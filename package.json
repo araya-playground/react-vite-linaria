@@ -1,0 +1,32 @@
+{
+  "name": "react-vite-linaria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.7",
+    "@chromatic-com/storybook": "^1.7.0",
+    "@linaria/core": "^6.2.0",
+    "@linaria/react": "^6.2.1",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/addon-onboarding": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/react": "^8.2.9",
+    "@storybook/react-vite": "^8.2.9",
+    "@storybook/test": "^8.2.9",
+    "@wyw-in-js/babel-preset": "^0.5.4",
+    "@wyw-in-js/vite": "^0.5.4",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.2.9"
+  }
+}
