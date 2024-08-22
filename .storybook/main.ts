@@ -1,8 +1,8 @@
 import { mergeConfig } from "vite";
 import wyw from "@wyw-in-js/vite";
+import { StorybookConfig } from "@storybook/react-vite";
 
-/** @type { import('@storybook/react-vite').StorybookConfig } */
-const config = {
+const config: StorybookConfig = {
   stories: [
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
@@ -24,7 +24,7 @@ const config = {
         wyw({
           include: ["**/*.{js,jsx,ts,tsx}"],
           babelOptions: {
-            presets: ["@babel/preset-react"],
+            presets: ["@babel/preset-react", "@babel/preset-typescript"],
           },
         }),
       ],

@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
     "@chromatic-com/storybook": "^1.7.0",
     "@linaria/core": "^6.2.0",
     "@linaria/react": "^6.2.1",
@@ -24,9 +25,11 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-vite": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@types/react": "^18.3.4",
     "@wyw-in-js/babel-preset": "^0.5.4",
     "@wyw-in-js/vite": "^0.5.4",
     "prop-types": "^15.8.1",
-    "storybook": "^8.2.9"
+    "storybook": "^8.2.9",
+    "vite": "^5.4.2"
   }
 }
